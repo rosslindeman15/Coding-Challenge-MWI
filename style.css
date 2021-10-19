@@ -1,6 +1,8 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	background-color: #222222;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 h1{
 	color: whitesmoke;
@@ -10,15 +12,60 @@ p{
 	color: #858585;
 }
 
-.column{
-  float: left;
-  width: 33.33%;
-  background-color: white;
-  display: inline;
+.header-image{
+	padding: 20px;
+}
+
+.contact-page{
+	float: right;
+	padding: 20px;
+	color: #DEBF79;
+	text-decoration: none;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-auto-rows: 1fr;
+	align-items: center;
+	justify-items: center;
+	grid-gap: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.grid-item{
+	background-color: white;
+	border-radius: 5px;
+}
+
+.grid-image{
+	height: auto;
+	width: auto;
+	padding: 10px;
+}
+
+.learn-more{
+	background-color:#DEBF79;
+	color: white;
+}
+
+.underline-gold{
+	color:#DEBF79 ;
 }
 
 .javascript-section{
 	float: left;
 }
 
-
+/*
+centers for mobile device
+.column{
+  
+  width: 33.33%;
+  background-color: white;
+  display: inline;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}*/
